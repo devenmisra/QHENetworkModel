@@ -14,7 +14,7 @@
 
 # +
 import os
-os.chdir('/home/demisra/ccnet/')
+os.chdir('/home/demisra/QHENetworkModel/')
 
 import numpy as np
 

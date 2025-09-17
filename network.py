@@ -187,7 +187,7 @@ import os
 import pickle
 import time
 
-os.chdir('/home/demisra/ccnet/')
+os.chdir('/home/demisra/QHENetworkModel/')
 os.getcwd()
 
 iP = 0.0
