@@ -172,7 +172,7 @@ def BatchList(ngen, n, m, w, ThetaList, seed, insertProbability):
     nmax = min([ngen, n])
     WholeList = []
     for j in range(0, len(ThetaList)):
-        MatrixList = TransfMatGenerator_withReplacement(ThetaList[j], m, ngen*w, (2**seed * 3**j), insertProbability)
+        MatrixList = TransfMatGenerator_withReplacement(ThetaList[j], m, ngen*w, (2**seed * 3**j * 5**m), insertProbability)
         WholeList.append(LyapFinder(w, MatrixList[0:nmax]))
 
     return np.array(WholeList)
